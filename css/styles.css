@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-image: radial-gradient(circle at 12.5% 12.5%, #008fb8 0, #008ec4 5%, #008dd0 10%, #008bda 15%, #0089e2 20%, #0086e8 25%, #0083eb 30%, #007fed 35%, #007aed 40%, #0074ea 45%, #486ee5 50%, #6c67de 55%, #875fd5 60%, #9c57cb 65%, #ad4ebf 70%, #bc46b2 75%, #c73da4 80%, #d03695 85%, #d63086 90%, #db2d77 95%, #dd2d67 100%);
+
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    background-image: radial-gradient(circle at 50% -20.71%, #fe8f62 0, #ff8564 8.33%, #ff7967 16.67%, #ff6c6b 25%, #fd5e6e 33.33%, #f84e73 41.67%, #f23c78 50%, #ea287e 58.33%, #e10e86 66.67%, #d6008f 75%, #ca0098 83.33%, #bb00a3 91.67%, #aa00ae 100%);
+    box-shadow: -1px 1px 71px -16px rgba(96,0,252,1);
+    -webkit-box-shadow: -1px 1px 71px -16px rgba(96,0,252,1);
+    -moz-box-shadow: -1px 1px 71px -16px rgba(96,0,252,1);
+} 
+h1 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+li:not(:last-child) {
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
